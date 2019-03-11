@@ -1,0 +1,1049 @@
+.phone_cover {
+	background-color: black;
+	height: 505px;
+	width: 260px;
+	border-radius: 40px;
+	position: absolute;
+	top: 5;
+	left: 508px;
+	z-index: -1;
+}
+
+.Power_Button {
+	height: 40px;
+	width: 5px;
+	background-color: black;
+	border: 0;
+	position: absolute;
+	top: 100px;
+	left: 761px;
+	z-index: -2;
+	outline: none;
+}
+
+.Blackscreen {
+	height: 470px; 
+	width: 240px;
+	background-color: black;
+	border: 0;
+	position: absolute;
+	top: 40px;
+	left: 518px;
+	z-index: 10000000000;
+	outline: none;
+	display: none;
+	border-radius: 22px;
+}
+
+/* apps for the phone */
+
+.phone_app_phone {
+	border: 0;
+	background-color: transparent;
+	position: absolute;
+	top: 401px;
+	left: 515px;
+	z-index: 3;
+	outline: none;
+}
+
+.phone_app_Messages {
+	border: 0;
+	background-color: transparent;
+	position: absolute;
+	top: 402px; 
+	left: 573px;
+	z-index: 3;
+	outline: none;
+}
+
+.phone_app_camera{
+	border: 0;
+	background-color: transparent;
+	position: absolute;
+	top: 402px;
+	left: 618px;
+	z-index: 3;
+	outline: none;
+}
+
+.phone_app_GooglePlayStore {
+	border: 0;
+	background-color: transparent;
+	position: absolute;
+	top: 403px;
+	left: 661px;
+	z-index: 3;
+	outline: none;
+}
+
+.Phone_app_YouTube {
+	border-radius: 10px;
+	height: 35px;
+	width: 35px;
+	border: 0;
+	position: absolute;
+	top: 403px;
+	left: 710px;
+	z-index: 3;
+	outline: none;
+}
+
+/* SearchBar */
+
+.SearchBar {
+	height: 22px;
+	width: 159px;
+	position: absolute;
+	top: 250px;
+	left: 295px;
+	border: 0;
+	z-index: 4;
+	outline: none;
+}
+
+.Fake_SearchBar {
+	background-color: white;
+	border-radius: 40px;
+	height: 25px;
+	width: 210px;
+	position: absolute;
+	top: 250px;
+	left: 268px;
+	border: 0;
+	z-index: 3;
+	outline: none;
+}
+
+.GoogleLogo {
+	position: absolute;
+	top: 255px;
+	left: 275px;
+	z-index: 4;
+}
+
+.Search_Button {
+	position: absolute;
+	top: 248px;
+	left: 445px;
+	z-index: 4;
+	outline: none;
+	background: transparent;
+	border: 0;
+}
+
+.GoogleSearchBar {
+	position: absolute;
+	top: 30px;
+	left: 265px;
+}
+
+/* Notiphacations bar */
+
+.battery_100_image {
+	position: absolute;
+	left: 691px;
+	top: 52px;
+	z-index: 10000;
+}
+
+.battery {
+	position: absolute;
+	top: 51px; 
+	left: 649px;
+	z-index: 10000;
+	color: #def1ff;
+
+}
+
+#phone_clock {
+	position: absolute;
+	top: 53px;
+	left: 704px;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 15px;
+	color: #def1ff;
+	z-index: 10000;
+}
+
+.Notiphacations_bar {
+	background-color: #332f2f;
+	position: absolute;
+	top: 49px;
+	left: 522px;
+	z-index: 10;
+	width: 232px;
+	height: 22px;
+	display: none;
+	border-top-left-radius: 22px;
+	border-top-right-radius: 22px;
+	opacity: 50%;
+}
+
+.invis_Notiphacations_bar {
+	background-color: transparent;
+	position: absolute;
+	top: 49px;
+	left: 522px;
+	z-index: 100000000;
+	width: 232px;
+	height: 22px;
+	border-top-left-radius: 22px;
+	border-top-right-radius: 22px;
+	opacity: 50%;
+	border: none;
+	outline: none;
+}
+
+.Notifacation_bar_opened {
+	background-color: #332f2f;
+	position: absolute;
+	top: 49px;
+	left: 522px;
+	z-index: 1000;
+	width: 232px;
+	height: 322px;
+	display: none;
+	border-top-left-radius: 22px;
+	border-top-right-radius: 22px;
+	opacity: 50%;
+}
+
+	ul li {
+		position: absolute;
+		list-style: none;
+		text-align: center;
+		margin: 15px;
+	}
+
+	ul li label input[type="checkbox"] {
+		position: absolute;
+		opacity: 0;
+		cursor: pointer;
+	}
+
+	ul li label .icon-box {
+		width: 40px;
+		height: 40px;
+		transition: 0.5s;
+		margin: 15px;
+	}
+
+	ul li label .icon-box .fas {
+		font-size: 20px;
+		color: #222;
+		transition: 0.5s;
+		z-index: 1001;
+		margin: 15px;
+	}
+
+	ul li label .icon-box .fab {
+		font-size: 20px;
+		color: #222;
+		transition: 0.5s;
+		z-index: 1001;
+		margin: 15px;
+	}
+
+	ul li label input[type="checkbox"]:checked ~ .icon-box .fas {
+		color: #fff;
+		text-shadow: 0 0 10px rgba(33,156,243,1),
+					 0 0 10px rgba(33,156,243,1);
+	}
+
+	ul li label input[type="checkbox"]:checked ~ .icon-box .fab {
+		color: #fff;
+		text-shadow: 0 0 10px rgba(33,156,243,1),
+					 0 0 10px rgba(33,156,243,1);
+	}
+
+/* main buttons */
+
+.Home_Button {
+	background-color: transparent;
+	border: 0;
+	position: absolute;
+	top: 460px;
+	left: 620px;
+	z-index: 15;
+	outline: none;
+}
+
+/* Youtube app opened */
+
+.Phone_App_Youtube_Opened {
+	background-color: white;
+	position: absolute;
+	left: 523px;
+	top: 50px;
+	height: 450px;
+	width: 230px;
+	z-index: 4;
+	display: none;
+	border-radius: 22px;
+}
+
+.Youtube_Logo {
+	position: absolute;
+	left: 525px;
+	top: 60px;
+	z-index: 5;
+	display: none;
+}
+
+.ITGEN_IO_YT_Channel {
+	position: absolute;
+	left: 290px;
+	top: 50px;
+	z-index: 5;
+	display: none;
+	border-radius: 50%;
+	border: 5px solid black;
+	outline: none;
+}
+
+.ITGEN_IO_YT_Channel_Description {
+	display: none;
+	width: 200px;
+	font-size: 15px;
+	z-index: 5;
+	position: absolute;
+	left: 540px;
+	top: 240px;
+}
+
+.ITGEN_IO_YouTube {
+	display: none;
+	position: absolute;
+	top: 410px;
+	left: 560px;
+	z-index: 5;
+}
+
+.ITGEN_IO_Site {
+	display: none;
+	position: absolute;
+	top: 410px;
+	left: 630px;
+	z-index: 5;
+}
+
+.ITGEN_IO_Twitter {
+	display: none;
+	position: absolute;
+	top: 410px;
+	left: 670px;
+	z-index: 5;
+}
+
+/* Phone app opened */
+
+.Phone_App_Phone_Opened {
+	background-color: white;
+	position: absolute;
+	left: 523px;
+	top: 50px;
+	height: 450px;
+	width: 230px; 
+	z-index: 4;
+	display: none;
+	border-radius: 22px;
+}
+
+/* Google playstore */
+
+.Phone_App_PlayStore_Opened {
+	background-color: #e6dfdf;
+	position: absolute;
+	left: 523px;
+	top: 50px;
+	height: 450px;
+	width: 230px;
+	z-index: 4;
+	display: none;
+	border-radius: 22px;
+}
+
+.Real_SearchBar_Playstore{
+	height: 26px;
+	width: 145px;
+	position: absolute;
+	top: 80px;
+	left: 568.5px;
+	border: 0;
+	z-index: 7;
+	outline: none;
+	display: none;
+	font-size: 15px;
+}
+
+.Fake_SearchBar_Playstore {
+	background-color: white;
+	height: 33px;
+	width: 220px;
+	position: absolute;
+	top: 78px;
+	left: 528px;
+	border: 0;
+	z-index: 6;
+	outline: none;
+	display: none;
+}
+
+.Green_thing_Playstore {
+	position: absolute;
+	left: 523px;
+	top: 50px;
+	background-color: #12980e;
+	height: 95px;
+	width: 230px;
+	border-top-left-radius: 22px;
+	border-top-right-radius: 22px;
+	z-index: 5;
+	display: none;
+}
+
+.Playstore_menu_button {
+	background-color: transparent;
+	position: absolute;
+	top: 72px;
+	left: 520px;
+	border: 0;
+	z-index: 8;
+	display: none;
+	outline: none;
+}
+
+.Micerophone_Playstore {
+	background: transparent;
+	position: absolute;
+	top: 81.5px;
+	left: 710px;
+	border: 0;
+	z-index: 8;
+	display: none;
+	outline: none;
+	
+}
+
+.Playstore_word_Games {
+	color: white;
+	position: absolute;
+	top: 115px;
+	left: 535px;
+	font-size: 15px;
+	border: 0;
+	z-index: 8;
+	display: none;
+	outline: none;
+	font-family: 'K2D', sans-serif;
+	background-color: transparent;
+}
+
+.Playstore_word_Music {
+	color: white;
+	position: absolute;
+	top: 115px;
+	left: 620px;
+	font-size: 15px;
+	border: 0;
+	z-index: 8;
+	display: none;
+	outline: none;
+	font-family: 'K2D', sans-serif;
+	background-color: transparent;
+}
+
+.Playstore_word_Apps {
+	color: white;
+	position: absolute;
+	top: 115px;
+	left: 695px;
+	font-size: 15px;
+	border: 0;
+	z-index: 8;
+	display: none;
+	outline: none;
+	font-family: 'K2D', sans-serif;
+	background-color: transparent;
+}
+
+/* Google play store Games*/
+
+.SnakeGame_Playstore {
+	background: transparent;
+	position: absolute;
+	top: 331px;
+	left: 530px;
+	display: none;
+	border: 0;
+	outline: none;
+	z-index: 9;
+}
+
+.Game_Border_Playstore {
+	background-color: white;
+	height: 140px;
+	width: 220px;
+	outline: none;
+	z-index: 8;
+	position: absolute;
+	top: 291px;
+	left: 528px;
+	display: none;
+	border-radius: 5px;
+}
+
+.Word_Snake_Playstore {
+	position: absolute;
+	top: 380px;
+	left: 548px; 
+	display: none;
+	border: 0;
+	outline: none;
+	z-index: 9;
+	color: black;
+	font-size: 14px;
+	font-family: 'K2D', sans-serif;
+}
+
+.Fortnite_Add_Playstore {
+	position: absolute;
+	top: 147px;
+	left: 524px;
+	outline: none; 
+	z-index: 8;
+	display: none;
+}
+
+.Word_Games {
+	position: absolute;
+	top: 300px;
+	left: 543px;
+	display: none;
+	z-index: 9;
+	color: gray;
+	font-size: 17px;
+	font-family: 'K2D', sans-serif;
+	outline: none;
+}
+
+.Tic_Tac_Toe_Game_Playstore {
+	position: absolute;
+	top: 331px;
+	left: 600px;
+	display: none;
+	z-index: 9;
+	outline: none;
+	border: none;
+	background: transparent;
+}
+
+.Word_Tic_Tac_Toe_Playstore {
+	position: absolute;
+	top: 396px;
+	left: 605px;
+	display: none;
+	z-index: 9;
+	color: black;
+	font-size: 14px;
+	font-family: 'K2D', sans-serif;
+	outline: none;
+}
+
+.Treasure_Hunt_Game_Playstore {
+	position: absolute;
+	top: 331px;
+	left: 676px;
+	z-index: 9;
+	outline: none;
+	display: none;
+	border: none;
+	background-color: transparent;
+}
+
+.Word_Treasure {
+	position: absolute;
+	top: 396px;
+	left: 685px;
+	display: none;
+	z-index: 9;
+	color: black;
+	font-size: 14px;
+	font-family: 'K2D', sans-serif;
+	outline: none;
+}
+
+.Word_Hunt {
+	position: absolute;
+	top: 410px;
+	left: 697px;
+	display: none;
+	z-index: 9;
+	color: black;
+	font-size: 14px;
+	font-family: 'K2D', sans-serif;
+	outline: none;
+}
+
+/* Google play store music */
+
+.Music_Apps_Border_Playstore {
+	background-color: white;
+	height: 140px;
+	width: 220px;
+	outline: none;
+	z-index: 8;
+	position: absolute;
+	top: 291px;
+	left: 528px;
+	display: none;
+	border-radius: 5px;
+}
+
+.Samsung_Music_App_Playstore {
+	background: transparent;
+	position: absolute;
+	top: 333px;
+	left: 538px;
+	display: none;
+	border: 0;
+	outline: none;
+	z-index: 9;
+}
+
+.Word_Music {
+	position: absolute;
+	top: 300px;
+	left: 543px;
+	display: none;
+	z-index: 9;
+	color: gray;
+	font-size: 17px;
+	font-family: 'K2D', sans-serif;
+	outline: none;
+}
+
+.Word_Samsung_Playstore {
+	position: absolute;
+	top: 390px;
+	left: 540px; 
+	display: none;
+	border: 0;
+	outline: none;
+	z-index: 9;
+	color: black;
+	font-size: 14px;
+	font-family: 'K2D', sans-serif;
+}
+
+.Word_Music_SamsungMusic_Playstore {
+	position: absolute;
+	top: 405px;
+	left: 550px; 
+	display: none;
+	border: 0;
+	outline: none;
+	z-index: 9;
+	color: black;
+	font-size: 14px;
+	font-family: 'K2D', sans-serif;
+}
+
+.Google_Music_Playstore {
+	position: absolute;
+	top: 333px;
+	left: 610px;
+	display: none;
+	z-index: 9;
+	outline: none;
+	border: none;
+	background: transparent;
+}
+
+.Word_Google_Playstore {
+	position: absolute;
+	top: 390px;
+	left: 620px; 
+	display: none;
+	border: 0;
+	outline: none;
+	z-index: 9;
+	color: black;
+	font-size: 14px;
+	font-family: 'K2D', sans-serif;
+}
+
+.Word_PlayMusic_Playstore {
+	position: absolute;
+	top: 405px;
+	left: 607px; 
+	display: none;
+	border: 0;
+	outline: none;
+	z-index: 9;
+	color: black;
+	font-size: 14px;
+	font-family: 'K2D', sans-serif;
+}
+
+.SoundCloud_IMG_Playstore {
+	position: absolute;
+	top: 331px;
+	left: 676px;
+	z-index: 9;
+	outline: none;
+	display: none;
+	border: none;
+	background-color: transparent;
+}
+
+.Word_SoundCloud {
+	position: absolute;
+	top: 394px;
+	left: 670px;
+	display: none;
+	z-index: 9;
+	color: black;
+	font-size: 14px;
+	font-family: 'K2D', sans-serif;
+	outline: none;
+}
+
+/* Apps Google Play store */
+
+.Google_Maps_Playstore {
+	background: transparent;
+	position: absolute;
+	top: 330px;
+	left: 535px;
+	display: none;
+	border: 0;
+	outline: none;
+	z-index: 9;
+}
+
+.Apps_Border_Apps_playstore {
+	background-color: white;
+	height: 140px;
+	width: 220px;
+	outline: none;
+	z-index: 8;
+	position: absolute;
+	top: 291px;
+	left: 528px;
+	display: none;
+	border-radius: 5px;
+}
+
+.Word_Google_GoogleMaps_Playstore {
+	position: absolute;
+	top: 392px;
+	left: 545px; 
+	display: none;
+	border: 0;
+	outline: none;
+	z-index: 9;
+	color: black;
+	font-size: 14px;
+	font-family: 'K2D', sans-serif;
+}
+
+.Word_Maps_GoogleMaps_Playstore {
+	position: absolute;
+	top: 405px;
+	left: 550px; 
+	display: none;
+	border: 0;
+	outline: none;
+	z-index: 9;
+	color: black;
+	font-size: 14px;
+	font-family: 'K2D', sans-serif;
+}
+
+.Word_Apps_Playstore {
+	position: absolute;
+	top: 300px;
+	left: 543px;
+	display: none;
+	z-index: 9;
+	color: gray;
+	font-size: 17px;
+	font-family: 'K2D', sans-serif;
+	outline: none;
+}
+
+.Viber_Icon_Playstore {
+	position: absolute;
+	top: 333px;
+	left: 610px;
+	display: none;
+	z-index: 9;
+	outline: none;
+	border: none;
+	background: transparent;
+}
+
+.Word_Viber {
+	position: absolute;
+	top: 390px;
+	left: 620px; 
+	display: none;
+	border: 0;
+	outline: none;
+	z-index: 9;
+	color: black;
+	font-size: 14px;
+	font-family: 'K2D', sans-serif;
+}
+
+/* Messeges app opened */
+
+.Phone_App_Messeges_Opened {
+	background-color: white;
+	position: absolute;
+	left: 523px;
+	top: 50px;
+	height: 450px;
+	width: 230px;
+	z-index: 4;
+	display: none;
+	border-radius: 22px;
+}
+
+.Youtube_Bug_Solution {
+	background-color: white;
+	height: 30px;
+	width: 30px;
+	z-index: 6;
+	position: absolute;
+	left: 282px;
+	top: 50px;
+}
+
+.Background1_bug_Solution {
+	background-color: white;
+	height: 30px;
+	width: 30px;
+	z-index: 6;
+	position: absolute;
+	left: 252px;
+	top: 20px;
+
+}
+
+	/* background wallpaper */
+
+.phone_background_1_picked {
+  position: absolute;
+  top: 24px;
+  left: 261px;
+  z-index: 1; 
+  border-radius: 22px;
+  background: transparent;
+  outline: none;
+  box-sizing: border-box;
+}
+
+ .phone_background_1_pick {
+  position: absolute;
+  top: 40px;
+  left: 275px;
+  z-index: 30; 
+  border-radius: 5px;
+  border: 2px solid white;
+  background: transparent;
+  outline: none;
+  display: none;
+}
+
+.phone_background_2_picked {
+  position: absolute;
+  top: 24px;
+  left: 261px;
+  z-index: 1; 
+  border-radius: 22px;
+  border: 0;
+  background: transparent;
+  outline: none;
+  display: none;
+  box-sizing: border-box;
+}
+
+ .phone_background_2_pick {
+  position: absolute;
+  top: 40px;
+  left: 330px;
+  z-index: 30; 
+  border-radius: 5px;
+  border: 2px solid white;
+  background: transparent;
+  outline: none;
+  display: none;
+}
+
+.phone_background_3_picked {
+  position: absolute;
+  top: 24px;
+  left: 261px;
+  z-index: 1; 
+  border-radius: 22px;
+  border: 0;
+  background: transparent;
+  outline: none;
+  display: none;
+  box-sizing: border-box;
+}
+
+ .phone_background_3_pick {
+  position: absolute;
+  top: 110px;
+  left: 275px;
+  z-index: 30; 
+  border-radius: 5px;
+  border: 2px solid white;
+  background: transparent;
+  outline: none;
+  display: none;
+}
+
+.phone_background_4_picked {
+  position: absolute;
+  top: 24px;
+  left: 261px;
+  z-index: 1; 
+  border-radius: 22px;
+  border: 0;
+  background: transparent;
+  outline: none;
+  display: none;
+  box-sizing: border-box;
+}
+
+ .phone_background_4_pick {
+  position: absolute;
+  top: 110px;
+  left: 330px;
+  z-index: 30; 
+  border-radius: 5px;
+  border: 2px solid white;
+  background: transparent;
+  outline: none;
+  display: none;
+}
+
+.phone_background_5_picked {
+  position: absolute;
+  top: 24px;
+  left: 261px;
+  z-index: 1; 
+  border-radius: 22px;
+  border: 0;
+  background: transparent;
+  outline: none;
+  display: none;
+  box-sizing: border-box;
+}
+
+.phone_background_5_pick {
+  position: absolute;
+  top: 180px;
+  left: 275px;
+  z-index: 30; 
+  border-radius: 5px;
+  border: 2px solid white;
+  background: transparent;
+  outline: none;
+  display: none;
+}
+
+.phone_background_6_picked {
+  position: absolute;
+  top: 24px;
+  left: 261px;
+  z-index: 1; 
+  border-radius: 22px;
+  border: 0;
+  background: transparent;
+  outline: none;
+  display: none;
+  box-sizing: border-box;
+}
+
+.phone_background_6_pick {
+  position: absolute;
+  top: 360px;
+  left: 662px;
+  z-index: 30; 
+  border-radius: 5px;
+  border: 2px solid white;
+  background: transparent;
+  outline: none;
+  display: none;
+  height: 105px;
+  width: 60px;
+  background-color: green;
+}
+
+.Change_background_input {
+	background-color: white;
+	position: absolute;
+	top: 420px;
+	left: 534px;
+	z-index: 40;
+	outline: none;
+	display: none;
+	border-radius: 5px;
+	border: 2px solid black;
+	height: 20px;
+	width: 200px;
+}
+
+.Change_background_input_detail {
+	background-color: #232323;
+	border-bottom-left-radius: 22px;
+	border-bottom-right-radius: 22px;
+	height: 100px;
+	width: 230px;
+	position: absolute;
+	top: 400px;
+	left: 521px;
+	z-index: 39;
+	display: none;
+	border-top: 2px solid white;
+}
+
+.Change_background_button {
+	outline: none;
+	border: 2px solid white;
+	color: white;
+	border-radius: 10px;
+	display: none;
+	position: absolute;
+	top: 460px;
+	left: 572px;
+	z-index: 40;
+	height: 25px;
+	width: 120px;
+	background: url(https://us.123rf.com/450wm/dstarky/dstarky1709/dstarky170900324/86739760-smooth-and-blurry-colorful-gradient-mesh-background-vector-illustration-with-bright-rainbow-colors-e.jpg?ver=6 );
+	background-size: cover;
+
+}
+
+
+
+.fade_effect {
+  	position: absolute;
+  	top: 47px;
+  	left: 521px;
+ 	z-index: 29; 
+ 	border-radius: 22px;
+ 	display: none;
+  	border: 0;
+  	background-color: black;
+  	outline: none;
+  	height: 455px;
+  	width: 235px;
+  	opacity: 0.4;
+}
